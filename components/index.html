@@ -7,9 +7,8 @@
   </head>
   <body>
     <div id="app">
-
-      <counter></counter>
-
+      <!-- for the props, use kebab in html  -->
+      <counter v-bind:add-num="5"></counter>
     </div>
 
     <script src="https://unpkg.com/vue"></script>
@@ -18,9 +17,15 @@
         template: `
           <div>
             <div>Count: {{this.count}}</div>
-            <button class="vue-btn" @click="increment">Increment by 1</button>
+            <button class="vue-btn" @click="increment">Increment by {{this.addNum}}</button>
           </div>
         `,
+        props:{
+          addNum: {  //for the props, use camelcase in vue
+            type: Number,
+            default: 1
+          }
+        },
         data(){
           return {
             count: 0
@@ -28,7 +33,7 @@
         },
         methods:{
           increment(){
-            this.count++
+            this.count += this.addNum
           }
         }
       })
