@@ -3,15 +3,11 @@ Vue JS 2.0 - Mastering Web Apps
 https://www.udemy.com/course/vue-web-apps/
 
 
+Vue Syntax and Essentials
 
-Section Overview | Vue Syntax and Essentials
-Understanding VueJS, Syntax, and the Essentials | Section Overview
+Understanding VueJS, Syntax, and the Essentials
 
 In this section, you got familiar with the syntax of Vue. You went over some key concepts to understand how Vue works. With this foundational knowledge, you can now move on to start exploring application development with Vue!
-
-This section overview doubles as a coding break for you though. Remember, approach this course at the pace you’re comfortable with. So grab a cup of coffee, tea, or hot chocolate! Whatever you need to keep your mind geared and ready to continue learning.
-
-With that, let’s overview some of the important topics that appeared in this section:
 
 A Vue instance accepts an options object that allows us to manipulate html and add reactivity through various Vue features.
 
@@ -33,4 +29,16 @@ Lifecycle hooks like created, mounted, and updated allow vue instances to run sp
 
 Again, this fundamental understanding of Vue will provide the foundational layer for building very complex and meaningful apps.
 
-With hope, you’re starting to see why so many developers are adopting Vue as one of their favorite frameworks. Even more so, hopefully you’re starting to Vue it as one of yours too!
+#########
+
+Web Requests
+
+Let’s take some time to go over web requests. On the web, companies and organizations store large databases of information. They have lists of users, collections of folders, and massive troves of files. Some companies allow developers to interact with that information with web requests and APIs.
+
+These APIs allow for all different types of web requests, including GET, POST, HEAD, DELETE, and more. Most often, you’ll use the GET and POST web requests.
+
+GET allows you to receive information from the API based on specific parameters.
+
+POST sends data to the API for the company to work with.
+
+And that covers a quick intro to Web Requests!
