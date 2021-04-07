@@ -29,7 +29,7 @@ Lifecycle hooks like created, mounted, and updated allow vue instances to run sp
 
 Again, this fundamental understanding of Vue will provide the foundational layer for building very complex and meaningful apps.
 
-#########
+------------------------------------------------------
 
 Web Requests
 
@@ -42,3 +42,16 @@ GET allows you to receive information from the API based on specific parameters.
 POST sends data to the API for the company to work with.
 
 And that covers a quick intro to Web Requests!
+
+
+---------------------------------------------------------
+
+Three items to the Vuex Recipe:
+
+The store centralizes all state in one global store object. That way, all components have access to the same state. As a result, updating state happens in a very controlled and predictable manner.
+
+Mutations represent the only way to update state. By having very specific function names, these mutations can be committed from actions anywhere in the application in order to modify the state.
+
+Actions commit mutations. These actions signal a mutation to fire from anywhere in the application.
+
+Overall, Vuex will help make your applications more sophisticated and easily maintained, especially as they become larger in scale.
