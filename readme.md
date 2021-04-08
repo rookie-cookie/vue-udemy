@@ -55,3 +55,16 @@ Mutations represent the only way to update state. By having very specific functi
 Actions commit mutations. These actions signal a mutation to fire from anywhere in the application.
 
 Overall, Vuex will help make your applications more sophisticated and easily maintained, especially as they become larger in scale.
+
+----------------------------------------------------------
+
+For future reference, remember that there’s three steps to the Vuex recipe:
+
+
+The Store refers to the centralized object for the entire application that gives state to every component.
+
+Mutations represent the only way to modify and update the store. Having these strict functions to modify state allows for predictable app behavior.
+
+Actions resemble mutations, but differ in that they commit mutations. Actions are callable by other functions in order to signal a mutation to fire and update the store.
+
+Just remember, store, mutations, and actions and you should be good to go!
