@@ -1,6 +1,6 @@
 <template lang="html">
-  <div id="app">
-    <router-view></router-view>
+  <div class="">
+    Sign in component
   </div>
 </template>
 
