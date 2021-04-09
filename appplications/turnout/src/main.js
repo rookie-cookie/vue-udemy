@@ -9,6 +9,7 @@ import store from './store'
 
 import Dashboard from './components/Dashboard.vue'
 import Signin from './components/Signin.vue'
+import Signup from './components/Signup.vue'
 
 const router = new VueRouter({
   mode: 'history',
@@ -17,7 +18,8 @@ const router = new VueRouter({
   //history mode - does not use hash instead uses alternative browser methods to achieve the same effect
   routes: [
     { path: '/dashboard', component: Dashboard },
-    { path: '/signin', component: Signin }
+    { path: '/signin', component: Signin },
+    { path: '/signup', component: Signup }
   ]
 })
 
